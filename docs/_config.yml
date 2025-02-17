@@ -1,3 +1,6 @@
+url: https://tomaszgrzesiak.github.io/GMD1-SemesterGameProject
+baseurl: /GMD1-SemesterGameProject
+
 # Set Jekyll Theme
 remote_theme: pages-themes/modernist@v0.2.0  # Example theme
 plugins:
@@ -10,5 +13,3 @@ include:
   - assets/css
   - assets/css/style.css  # Make sure CSS is included properly
 
-url: tomaszgrzesiak.github.io
-baseurl: /GMD1-SemesterGameProject #NO TRAILING SLASH
