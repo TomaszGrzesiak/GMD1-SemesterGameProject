@@ -6,5 +6,6 @@ plugins:
 # Include custom layouts and CSS files
 include:
   - _layouts
+  - _posts
   - assets/css
   - assets/css/style.css  # Make sure CSS is included properly
