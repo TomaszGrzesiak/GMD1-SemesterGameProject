@@ -9,9 +9,13 @@ description: "Welcome my dear reader!"
 <!-- This is a simple Jekyll-powered blog hosted on **GitHub Pages**. -->
 
 ## 📌 Recent Posts (Static Test)
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
+</ul>
 ---
 
 ## 📖 About This Site
