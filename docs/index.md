@@ -1,16 +1,25 @@
 ---
-title: "TG :: Game developement blog."
-description: "Welcome my dear reader!"
 layout: default
+title: "TG - Game developement blog."
+description: "Welcome my dear reader!"
 ---
 
-<h1>Blog Posts</h1>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+# Welcome to My GMD Project Blog 🚀
+<!-- This is a simple Jekyll-powered blog hosted on **GitHub Pages**. -->
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+## 📌 Recent Posts
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+  {% endfor %}
+
+---
+
+## 📖 About This Site
+I'm documenting my journey in **GMD game project**, sharing insights about the process.
+
+🌟 **Want to explore?** Check out:
+- [Latest Articles](/blog)
+- [About Me](/about)
+- [Contact](/contact)
+
+Enjoy the content, and feel free to reach out! 😊
