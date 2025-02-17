@@ -3,3 +3,8 @@ include: ["assets/css/style.css"]
 remote_theme: pages-themes/modernist@v0.2.0  # Example theme
 plugins:
   - jekyll-remote-theme
+
+# Enable custom layouts
+include:
+  - _layouts
+  - assets/css
