@@ -8,3 +8,4 @@ include:
   - _layouts
   - assets/css
   - assets/css/style.css  # Make sure CSS is included properly
+  - index.html
