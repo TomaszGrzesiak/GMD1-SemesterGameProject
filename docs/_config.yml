@@ -1,0 +1,5 @@
+permalink: /blog/  # Makes the blog.md the main page
+include: ["assets/css/style.css"]
+remote_theme: pages-themes/modernist@v0.2.0  # Example theme
+plugins:
+  - jekyll-remote-theme
