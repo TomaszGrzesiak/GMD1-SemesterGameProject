@@ -8,10 +8,9 @@ description: "Welcome my dear reader!"
 # Welcome to My GMD Project Blog 🚀
 <!-- This is a simple Jekyll-powered blog hosted on **GitHub Pages**. -->
 
-## 📌 Recent Posts
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
-  {% endfor %}
+## 📌 Recent Posts (Static Test)
+- **Post 1** - February 17, 2024
+- **Post 2** - February 15, 2024
 
 ---
 
