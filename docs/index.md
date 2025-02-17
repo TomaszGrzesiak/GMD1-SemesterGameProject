@@ -21,12 +21,6 @@ description: "Welcome my dear reader!"
 ## 📖 About This Site
 I'm documenting my journey in **GMD game project**, sharing insights about the process.
 
-
-🌟 **Want to explore?** Check out:
-- [Latest Articles](/blog)
-- [About Me](/about)
-- [Contact](/contact)
-
 Enjoy the content, and feel free to reach out! 😊
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
