@@ -36,3 +36,6 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+.red-text { color: red; }
+
