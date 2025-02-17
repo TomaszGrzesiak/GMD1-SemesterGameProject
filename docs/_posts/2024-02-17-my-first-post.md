@@ -27,4 +27,3 @@ Let's see how far I can get with it!
 And let's hope Unity website is up again soon :)
 
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">

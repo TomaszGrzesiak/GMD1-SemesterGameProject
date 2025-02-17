@@ -24,3 +24,5 @@ I'm documenting my journey in **GMD game project**, sharing insights about the p
 - [Contact](/contact)
 -->
 Enjoy the content, and feel free to reach out! 😊
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
