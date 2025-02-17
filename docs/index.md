@@ -4,10 +4,6 @@ description: "Welcome my dear reader!"
 layout: default
 ---
 
----
-layout: default
----
-
 <h1>Blog Posts</h1>
 <ul>
   {% for post in site.posts %}
