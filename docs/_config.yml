@@ -1,10 +1,10 @@
-permalink: /blog/  # Makes the blog.md the main page
-include: ["assets/css/style.css"]
+# Set Jekyll Theme
 remote_theme: pages-themes/modernist@v0.2.0  # Example theme
 plugins:
   - jekyll-remote-theme
 
-# Enable custom layouts
+# Include custom layouts and CSS files
 include:
   - _layouts
   - assets/css
+  - assets/css/style.css  # Make sure CSS is included properly
