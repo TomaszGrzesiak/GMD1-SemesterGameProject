@@ -13,6 +13,7 @@ TBD - at the end of the project. At latest ~28 May 2025.
 
 - Gym asset pack. https://limezu.itch.io/moderninteriors/devlog/292361/387th-update-gym-additional-files-and-designs
 - Factory theme asset pack (tiles): https://craftpix.net/freebies/free-factory-pixel-art-32x32-tileset-for-cyberpunk/?num=1&count=3&sq=industrial&pos=1 , https://craftpix.net/freebies/free-industrial-zone-tileset-pixel-art/?num=1&count=3&sq=industrial&pos=0
+- Some sprites were generated using https://www.pixellab.ai/ with a commercial licence (Service has been purchased)
 
 
 ### Docs and tutorials:
