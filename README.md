@@ -1,4 +1,8 @@
-BLOG: https://tomaszgrzesiak.github.io/GMD1-SemesterGameProject/
+BLOG Posts:
+
+1. [Roll-a-ball tutorial](Blog/1%23%20Roll-a-ball.md)
+2.
+
 # GMD1-SemesterGameProject
 ### YouTube video demo ~2 min.
 TBD - at the end of the project. At latest ~28 May 2025.
