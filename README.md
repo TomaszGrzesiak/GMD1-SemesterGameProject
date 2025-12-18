@@ -19,3 +19,5 @@ TBD - at the end of the project. At latest ~28 May 2025.
 - https://learn.unity.com/project/roll-a-ball
 - https://docs.unity3d.com/6000.0/Documentation/Manual/2d-game-creation-wokflow.html#Sprites
 - https://www.youtube.com/watch?v=Xxbs9x2qB7Y&ab_channel=Unity
+- https://learn.unity.com/course/2d-beginner-adventure-game
+- 
