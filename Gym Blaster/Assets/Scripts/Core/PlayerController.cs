@@ -80,6 +80,7 @@ public class PlayerController : MonoBehaviour
 
         var w = Instantiate(weightPrefab, worldCenter, Quaternion.identity)
             .GetComponent<Weight>();
+        AudioManager.I.PlayOneShot(AudioManager.I.Bank.place, 0.9f);
 
         w.Init(wallsTilemap, destructibleTilemap, blastRange);
     }

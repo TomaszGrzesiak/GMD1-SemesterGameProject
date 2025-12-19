@@ -15,8 +15,9 @@ public sealed class ExitZone : MonoBehaviour
 
         if (GameState.I.CheckWinCondition())
         {
-            
+           AudioManager.I.PlayOneShot(AudioManager.I.Bank.win, 1f);
            ShowMessage("Congrats! You won!", 1.6f);
+           
            StartCoroutine(RestartAfterDelay(1.6f));
            return;
         }
@@ -32,6 +33,7 @@ public sealed class ExitZone : MonoBehaviour
         Vector3 pos = messageSpawnPoint != null ? messageSpawnPoint.position : transform.position;
 
         var msg = Instantiate(floatingMessagePrefab, pos, Quaternion.identity);
+        AudioManager.I.PlayOneShot(AudioManager.I.Bank.locked, 0.8f);
         msg.Show("LOCKED");
 
         Invoke(nameof(ResetGuard), 1.3f);
