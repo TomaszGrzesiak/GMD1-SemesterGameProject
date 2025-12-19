@@ -26,6 +26,7 @@ public sealed class Pickup : MonoBehaviour
                 break;
         }
 
+        AudioManager.I.PlayOneShot(AudioManager.I.Bank.pickup, 0.8f);
         Destroy(gameObject);
     }
 }
