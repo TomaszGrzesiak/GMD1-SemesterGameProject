@@ -66,10 +66,13 @@ public sealed class Weight : MonoBehaviour
         
         Instantiate(explosionPrefab, world, Quaternion.identity);
 
+        AudioManager.I.PlayOneShot(AudioManager.I.Bank.explode, 1f);
+        
         // Kill check (no physics pushing possible)
         Collider2D hit = Physics2D.OverlapCircle((Vector2)world, 0.35f, playerMask);
         if (hit != null && hit.CompareTag("Player"))
         {
+            AudioManager.I.PlayOneShot(AudioManager.I.Bank.win, 1f);
             GameState.I.Restart(); // or Destroy(hit.gameObject); // or 
         }
     }
