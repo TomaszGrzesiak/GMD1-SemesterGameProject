@@ -7,6 +7,7 @@ TBD - at the end of the project. At latest ~28 May 2025.
 
 1. [Roll-a-ball tutorial](Blog/1%23%20Roll-a-ball.md)
 2. [Game Design Documnet](Blog/2%23%20Game%20Design%20Document.md)
+3. [Milestone 1 - Core mechanics and graphics](Blog/3%23-Milestone-1-Core.md)
 
 
 ## Third party assets/code/tutorials I've used in the project:

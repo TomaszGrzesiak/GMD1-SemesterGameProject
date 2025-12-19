@@ -54,6 +54,7 @@ public sealed class Weight : MonoBehaviour
             if (destructibleTilemap.HasTile(cell))
             {
                 destructibleTilemap.SetTile(cell, null);
+                PickupSpawner.I.RevealAt(cell);
                 break;
             }
         }
@@ -69,7 +70,7 @@ public sealed class Weight : MonoBehaviour
         Collider2D hit = Physics2D.OverlapCircle((Vector2)world, 0.35f, playerMask);
         if (hit != null && hit.CompareTag("Player"))
         {
-            Destroy(hit.gameObject); // or GameState.I.Restart();
+            GameState.I.Restart(); // or Destroy(hit.gameObject); // or 
         }
     }
 
